@@ -53,8 +53,28 @@ let indefinido;
 console.log(indefinido);
 // operador typeof: devuelve el tipo de dato de una variable typeof(x)
 console.log(typeof (alert));
-console.log(typeof(math))
+console.log(typeof(math));
+console.log(typeof (null)); // error de javascript
 
+// alert es para una ventana modal 
+// prompt sirve para almacenar lo que uno coloque ahi 
+let almacenar;
+almacenar= prompt("digite algo ");
+almacenar= prompt("digite algo ", ""); //solo para internet explorer
+
+//confirm
+
+let helado;
+helado=confirm("te gusta el helado?");
+console.log(helado);//true si presionan ok, false si presionan cancelar
+// conversion de tipos 
+// existen dos tipos de conversiones: explicita e implicita
+//convertir a string
+valor=String(otro_numero);
+console.log(typeof(valor));
+// convertir a numero
+// conversiones que surgen automatica mente
+console.log("6"/"2")
 
 
 
